@@ -1,0 +1,22 @@
+{
+  "name": "code-challenge-wk3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mbiki-KK/code-challenge-wk3.git"
+  },
+  "keywords": [
+    "Flatdango"
+  ],
+  "author": "Mbiki Waweru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mbiki-KK/code-challenge-wk3/issues"
+  },
+  "homepage": "https://github.com/Mbiki-KK/code-challenge-wk3#readme"
+}
