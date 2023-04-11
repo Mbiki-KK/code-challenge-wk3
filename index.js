@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
 // Fetch movie data from the endpoint
 fetch('http://localhost:3000/films')
   .then(response => response.json())
-  .then(data => {
+  .then(films =>
     // Remove the placeholder li element
-    const placeholder = document.querySelector('#films li');
+    {const placeholder = document.querySelector('#films li');
     
 
     // Create a list item for each movie
@@ -27,6 +27,8 @@ fetch('http://localhost:3000/films')
       filmsList.appendChild(li);
     });
   })
+
+  
 
   const buyTickets = document.getElementById("buy-ticket");
   const ticketAvailability = document.getElementById('ticket-availability');
